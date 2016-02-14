@@ -2,18 +2,17 @@
 
 Automated scripts to provision a virtual machine for Apache Spark development.
 
-Uses Vagrant with a simple Bash provisioner script to create an Ubuntu VM
-running Xubuntu Core, Apache Spark, Java (+Maven), Scala (+SBT), and Python.
+Uses Vagrant with a simple Bash provisioner script to create an Ubuntu VM with
+the following installed:
 
-Versions installed:
-
-* Ubuntu: 15.10
-* Apache Spark: 1.6.0 pre-built for Hadoop 2.6 and later
+* Ubuntu 15.10
+* Desktop environment: XFCE 4 (Xubuntu Core)
+* Apache Spark 1.6.0 pre-built for Hadoop 2.6 (binary)
 * Java: OpenJDK 8 (Ubuntu package)
-* Maven: 3 (Ubuntu package)
-* Scala: 2.10.6
-* SBT: 0.13.9
-* Python: 2.7 (Ubuntu package)
+* Maven 3 (Ubuntu package)
+* Scala 2.10.6 (binary)
+* SBT 0.13.9 (binary)
+* Python 2.7 (Ubuntu package)
 
 ## Caching
 
