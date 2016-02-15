@@ -21,7 +21,7 @@ run this first:
 
     vagrant plugin install vagrant-cachier
 
-Note that the provioner script will download binary packages (e.g. Spark) to the
-`./cache` directory on your host. This is done to avoid repeated downloads in a
-similar way to how vagrant-cachier works for Linux packages. In particular, it
-avoids you downloading the 270+ MB Spark distribution every build!
+Note that the provisioner script will download binary packages (e.g. Spark) to
+the `./cache` directory on your host. This is done to avoid repeated downloads
+in a similar way to how vagrant-cachier works for Linux packages. In particular,
+it avoids you downloading the 270+ MB Spark distribution every build!
