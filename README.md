@@ -14,6 +14,12 @@ the following installed:
 * SBT 0.13.9 (binary)
 * Python 2.7 (Ubuntu package)
 
+## Creating the VM
+
+```
+vagrant up
+```
+
 ## Caching
 
 To speed up builds by caching downloaded Debian packages on your host machine,
