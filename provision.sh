@@ -32,10 +32,10 @@ if [[ ! -e '/opt/scala-2.10.6' ]]; then
 fi
 
 # See latest SBT downloads at http://www.scala-sbt.org/download.html.
-if [[ ! -e '/opt/sbt-0.13.9.tgz' ]]; then
+if [[ ! -e '/opt/sbt' ]]; then
   wget -c -P /vagrant/cache 'https://dl.bintray.com/sbt/native-packages/sbt/0.13.9/sbt-0.13.9.tgz'
   tar -x -z -C /opt -f '/vagrant/cache/sbt-0.13.9.tgz'
-  chown -R vagrant: '/opt/sbt-0.13.9.tgz'
+  chown -R vagrant: '/opt/sbt'
   echo 'export PATH="/opt/sbt/bin:$PATH"' >> /home/vagrant/.bashrc
 fi
 
