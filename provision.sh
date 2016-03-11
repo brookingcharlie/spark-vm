@@ -53,4 +53,4 @@ if [[ ! -e '/opt/spark-1.6.0-bin-hadoop2.6' ]]; then
   sed -i 's/log4j.rootCategory=INFO/log4j.rootCategory=ERROR/' /opt/spark/conf/log4j.properties
 fi
 
-#reboot # will start X display manager
+reboot # to start X display manager
