@@ -2,6 +2,8 @@
 
 Based on <http://spark.apache.org/docs/1.6.0/quick-start.html>.
 
+Also see <http://spark.apache.org/docs/1.6.0/submitting-applications.html>.
+
 ## Starting a local Spark cluster
 
 To create a local Spark cluster with a single slave:
