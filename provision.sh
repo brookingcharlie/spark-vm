@@ -37,6 +37,9 @@ if [[ ! -e '/opt/sbt' ]]; then
   tar -x -z -C /opt -f '/vagrant/cache/sbt-0.13.9.tgz'
   chown -R vagrant: '/opt/sbt'
   echo 'export PATH="/opt/sbt/bin:$PATH"' >> /home/vagrant/.bashrc
+
+  sudo -u vagrant mkdir -p /home/vagrant/.ivy2/
+  sudo -u vagrant ln -s /vagrant/cache/ivy2 /home/vagrant/.ivy2/cache
 fi
 
 # See latest Spark downloads at http://spark.apache.org/downloads.html.
