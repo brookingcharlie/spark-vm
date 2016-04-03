@@ -24,6 +24,8 @@ To create a local Spark cluster with two slaves:
 ## Packaging the application
 
 ```
+cp -a /vagrant/training/simple-app $HOME
+cd $HOME/simple-app
 sbt package
 ```
 
