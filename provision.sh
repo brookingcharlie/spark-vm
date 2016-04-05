@@ -60,7 +60,7 @@ if [[ ! -e '/opt/eclipse' ]]; then
   wget -c -P /vagrant/cache 'http://downloads.typesafe.com/scalaide-pack/4.4.0-vfinal-luna-211-20160401/scala-SDK-4.4.0-vfinal-2.11-linux.gtk.x86_64.tar.gz'
   tar -x -z -C /opt -f '/vagrant/cache/scala-SDK-4.4.0-vfinal-2.11-linux.gtk.x86_64.tar.gz'
   chown -R vagrant: '/opt/eclipse'
-  echo 'export PATH="/opt/eclipse/bin:$PATH"' >> /home/vagrant/.bashrc
+  echo 'export PATH="/opt/eclipse:$PATH"' >> /home/vagrant/.bashrc
 fi
 
 #reboot # to start X display manager
